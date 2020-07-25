@@ -2,7 +2,7 @@
   "name": "tutor-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",    
+    "ng": "ng",
     "start": "echo hello && ng serve",
     "start-live": "ng serve --open",
     "build": "ng build",
