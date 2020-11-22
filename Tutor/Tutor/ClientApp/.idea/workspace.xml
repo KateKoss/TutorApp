@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Tutor.Domain/Models/Lesson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutor.Domain/Models/Lesson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutor.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Controllers/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Controllers/LessonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutor.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1jgrn4sxex3CifhU2qhZqyKMUDg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\projects\TutorApp\Tutor\Tutor\ClientApp\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="" />
+      <created>1604236740324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604236740324</updated>
+      <workItem from="1604236741491" duration="2258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.js.map" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/polyfills.js.map" />
+        <option value="$PROJECT_DIR$/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1604236875983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604236875983" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604238413301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604238413301" />
+  </component>
+</project>

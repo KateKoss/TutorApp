@@ -15,20 +15,20 @@ namespace Tutor
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //Server=localhost;Database=master;Trusted_Connection=True;
             var connectionString = "Server=(localdb)\\mssqllocaldb;Database=productsdb;Trusted_Connection=True;";
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
-
+            services.AddControllers();
             services.AddSpaStaticFiles(coniguration => 
             { 
                 coniguration.RootPath = "ClientApp/dist"; 
             });
-            services.AddAuthentication().AddGoogle(options =>
-            {
-                IConfigurationSection googleAuthNSection =
-                    Configuration.GetSection("Authentication:Google");
-                options.ClientId = googleAuthNSection["ClientId"];
-                options.ClientSecret = googleAuthNSection["ClientSecret"];
-            });
+            //services.AddAuthentication().AddGoogle(options =>
+            //{
+            //    IConfigurationSection googleAuthNSection = AppConfiguration.GetSection("Authentication:Google");
+            //    options.ClientId = googleAuthNSection["ClientId"];
+            //    options.ClientSecret = googleAuthNSection["ClientSecret"];
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +46,7 @@ namespace Tutor
                 app.UseSpaStaticFiles();
             }
 
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             app.UseSpa(spa =>
             {
                 spa.Options.SourcePath = "ClientApp";

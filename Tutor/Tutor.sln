@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutor", "Tutor\Tutor.csproj", "{59C9B7D1-8C4F-4A0C-B1DA-EC9E3B710170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutor", "Tutor\Tutor.csproj", "{59C9B7D1-8C4F-4A0C-B1DA-EC9E3B710170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutor.Domain", "Tutor.Domain\Tutor.Domain.csproj", "{919504DE-0346-48A4-B4E0-5E25AF3DC142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutor.Domain", "Tutor.Domain\Tutor.Domain.csproj", "{919504DE-0346-48A4-B4E0-5E25AF3DC142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutor.Authentication", "Tutor.Authentication\Tutor.Authentication.csproj", "{DFDC63B2-E0D3-4454-AAC2-71D824AB7E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{919504DE-0346-48A4-B4E0-5E25AF3DC142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919504DE-0346-48A4-B4E0-5E25AF3DC142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919504DE-0346-48A4-B4E0-5E25AF3DC142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDC63B2-E0D3-4454-AAC2-71D824AB7E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDC63B2-E0D3-4454-AAC2-71D824AB7E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDC63B2-E0D3-4454-AAC2-71D824AB7E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDC63B2-E0D3-4454-AAC2-71D824AB7E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

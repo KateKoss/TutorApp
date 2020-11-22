@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace Tutor.Controllers
     public class LessonController : Controller
     {
         ApplicationContext db;
-        public LessonController(ApplicationContext applicationContext)
+
+        public LessonController(ApplicationContext applicationContext, IConfiguration configuration)
         {
             db = applicationContext;
             if (!db.Lessons.Any())
