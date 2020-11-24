@@ -16,7 +16,9 @@
     "@angular/platform-browser": "~10.0.0",
     "@angular/platform-browser-dynamic": "~10.0.0",
     "@angular/router": "~10.0.0",
+    "bootstrap": "^4.5.3",
     "guid-typescript": "^1.0.9",
+    "jquery": "^3.5.1",
     "rxjs": "~6.5.5",
     "zone.js": "~0.10.3"
   },

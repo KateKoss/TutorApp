@@ -5,24 +5,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { Component } from '@angular/core';
-import { LessonService } from "./services/lesson.service";
-let AppComponent = class AppComponent {
-    constructor(lessonService) {
-        this.lessonService = lessonService;
-        this.name = '';
+import { LessonService } from '../../services/lesson.service';
+let LessonComponent = class LessonComponent {
+    constructor(_lessonService) {
+        this._lessonService = _lessonService;
     }
     ngOnInit() {
+        this.loadAllLessons();
     }
-    loadLessons() {
-        this.lessonService.getLessons().subscribe((data) => this.lesson = data);
+    loadAllLessons() {
+        this._lessonService.getLessons()
+            .subscribe((data) => this.lessons = data);
     }
 };
-AppComponent = __decorate([
+LessonComponent = __decorate([
     Component({
-        selector: 'app',
-        templateUrl: './app.component.html',
+        selector: 'app-lesson',
+        templateUrl: './lesson.component.html',
+        styleUrls: ['./lesson.component.css'],
         providers: [LessonService]
     })
-], AppComponent);
-export { AppComponent };
-//# sourceMappingURL=app.component.js.map
+], LessonComponent);
+export { LessonComponent };
+//# sourceMappingURL=lesson.component.js.map

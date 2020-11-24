@@ -18,7 +18,7 @@ namespace Tutor.Controllers
             db = applicationContext;
             if (!db.Lessons.Any())
             {
-                db.Lessons.Add(new Lesson { Id = Guid.NewGuid(), Name = "English" });
+                db.Lessons.Add(new Lesson { Id = Guid.NewGuid(), Name = "English", IsProceed = true});
                 db.Lessons.Add(new Lesson { Id = Guid.NewGuid(), Name = "Java" });
                 db.SaveChanges();
             }

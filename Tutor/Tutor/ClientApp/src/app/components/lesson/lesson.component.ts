@@ -9,11 +9,15 @@ import { Lesson } from 'src/app/models/lesson';
   providers: [LessonService]
 })
 export class LessonComponent implements OnInit {
-  public lesson: Lesson;  
+  public lessons: Lesson[];
   constructor(private _lessonService: LessonService) { }
 
   ngOnInit() {
-    this.lesson = this._lessonService.getLesson(); 
+    this.loadAllLessons();
   }
 
+  loadAllLessons() {
+    this._lessonService.getLessons()
+        .subscribe((data :Lesson[]) => this.lessons = data);
+  }
 }

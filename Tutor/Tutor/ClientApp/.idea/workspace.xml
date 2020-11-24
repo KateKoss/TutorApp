@@ -2,11 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Tutor.Domain/Models/Lesson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutor.Domain/Models/Lesson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tutor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutor.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app.component.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/components/lesson/lesson.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/components/lesson/lesson.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/components/lesson/lesson.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/components/lesson/lesson.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/models/IPerson.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/models/lesson.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/models/lessonSubject.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/models/period.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/models/student.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/app/services/lesson.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/styles.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/tsconfig.base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ClientApp/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/lesson.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/lesson.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Controllers/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Controllers/LessonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tutor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutor.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="JSInitializeFieldsIntentionBase.visibility" value="private" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,6 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604236740324</updated>
       <workItem from="1604236741491" duration="2258000" />
+      <workItem from="1606036801058" duration="5614000" />
+      <workItem from="1606248993514" duration="1473000" />
     </task>
     <servers />
   </component>
@@ -69,17 +126,43 @@
         <option value="$PROJECT_DIR$/src/app/app.module.js" />
         <option value="$PROJECT_DIR$/src/app/app.component.js.map" />
         <option value="$PROJECT_DIR$/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/src/app/models/student.js" />
+        <option value="$PROJECT_DIR$/src/app/models/lesson.js.map" />
+        <option value="$PROJECT_DIR$/src/app/models/lesson.js" />
+        <option value="$PROJECT_DIR$/src/app/models/IPerson.js" />
+        <option value="$PROJECT_DIR$/src/app/models/lessonSubject.js.map" />
+        <option value="$PROJECT_DIR$/src/app/models/period.js" />
+        <option value="$PROJECT_DIR$/src/app/models/student.js.map" />
+        <option value="$PROJECT_DIR$/src/app/models/lessonSubject.js" />
+        <option value="$PROJECT_DIR$/src/app/models/period.js.map" />
+        <option value="$PROJECT_DIR$/src/app/models/IPerson.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/lesson.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/lesson.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" />
       </list>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1604236875983">
+    <state x="395" y="90" key="#Inspections" timestamp="1606242713234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604236875983" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604238413301">
+    <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1606242713234" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606250105340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604238413301" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606250105340" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606250288651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606250288651" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1606250236073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1606250236073" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606037938889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606037938889" />
   </component>
 </project>

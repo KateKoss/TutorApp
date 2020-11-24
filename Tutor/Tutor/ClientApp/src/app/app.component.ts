@@ -8,16 +8,11 @@ import {Lesson} from "./models/lesson";
     providers: [LessonService]
 })
 export class AppComponent implements OnInit {
-    lesson: Lesson;// = new Lesson();
-    constructor(private lessonService: LessonService) {
+    constructor() {
     }
     name = '';
 
     ngOnInit() {
 
-    }
-
-    loadLessons() {
-        this.lessonService.getLessons().subscribe((data:Lesson) => this.)
     }
 }

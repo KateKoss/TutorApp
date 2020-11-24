@@ -1,4 +1,19 @@
-<p>
-  lesson works!
-  {{lesson.isProceed}}
-</p>
+lesson works!
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Lesson Name</th>
+      <th scope="col">Proceed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let lesson of lessons">
+      <td>{{lesson.name}}</td>
+      <td>{{lesson.isProceed}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
