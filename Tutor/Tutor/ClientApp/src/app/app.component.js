@@ -7,14 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Component } from '@angular/core';
 import { LessonService } from "./services/lesson.service";
 let AppComponent = class AppComponent {
-    constructor(lessonService) {
-        this.lessonService = lessonService;
+    constructor() {
         this.name = '';
     }
     ngOnInit() {
-    }
-    loadLessons() {
-        this.lessonService.getLessons().subscribe((data) => this.lesson = data);
     }
 };
 AppComponent = __decorate([
