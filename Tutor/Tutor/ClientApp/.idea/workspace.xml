@@ -19,20 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="">
+    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever">
       <change afterPath="$PROJECT_DIR$/src/app/components/menu/menu.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/components/menu/menu.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/components/menu/menu.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/IPerson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/IPerson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/lesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/lesson.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/lesson.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +99,17 @@
       <workItem from="1607893021247" duration="41000" />
       <workItem from="1607893078884" duration="74000" />
       <workItem from="1607894349372" duration="1393000" />
-      <workItem from="1608754629229" duration="2871000" />
+      <workItem from="1608754629229" duration="3909000" />
+      <workItem from="1609698643005" duration="430000" />
     </task>
+    <task id="LOCAL-00001" summary="Show lessons table from mocked sever">
+      <created>1608757739828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608757739829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +151,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Show lessons table from mocked sever" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show lessons table from mocked sever" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1606242713234">

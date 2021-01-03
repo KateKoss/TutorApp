@@ -16,10 +16,6 @@ export class LessonService {
 
     getLessons()/*: Observable<Lesson>*/ {
         return this.http.get(this.url);
-        //let lessonInfo = new Lesson();
-        //lessonInfo.isProceed = true;
-        ////lessonInfo.student = new Student('Ololo', 'Olo', 'ololo@gmail.com');
-        //return lessonInfo;
     }
 
     getLesson(id: Guid) {

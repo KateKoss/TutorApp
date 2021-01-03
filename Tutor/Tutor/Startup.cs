@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -46,17 +47,17 @@ namespace Tutor
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             app.UseSpa(spa =>
             {
-                //spa.Options.SourcePath = "ClientApp";
-
-                //if (env.IsDevelopment())
-                //{
-                //    spa.UseAngularCliServer(npmScript: "start");
-                //}
+                spa.Options.SourcePath = "ClientApp";
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    spa.UseAngularCliServer(npmScript: "start");
                 }
+
+                //if (env.IsDevelopment())
+                //{
+                //    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                //}
             });
         }
     }

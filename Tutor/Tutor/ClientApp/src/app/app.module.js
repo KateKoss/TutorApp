@@ -10,11 +10,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LessonComponent } from "./components/lesson/lesson.component";
 import { HttpClientModule } from "@angular/common/http";
+import { RouterModule } from "@angular/router";
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     NgModule({
-        imports: [BrowserModule, FormsModule, HttpClientModule],
+        imports: [BrowserModule, FormsModule, HttpClientModule, RouterModule],
         declarations: [AppComponent, LessonComponent],
         bootstrap: [AppComponent]
     })
