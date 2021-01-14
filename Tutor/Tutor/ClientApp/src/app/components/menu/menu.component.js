@@ -5,18 +5,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { Component } from '@angular/core';
-let AppComponent = class AppComponent {
-    constructor() {
-        this.name = '';
-    }
+let MenuComponent = class MenuComponent {
+    constructor() { }
     ngOnInit() {
     }
 };
-AppComponent = __decorate([
+MenuComponent = __decorate([
     Component({
-        selector: 'app',
-        templateUrl: './app.component.html'
+        selector: 'app-menu',
+        templateUrl: './menu.component.html',
+        styleUrls: ['./menu.component.css']
     })
-], AppComponent);
-export { AppComponent };
-//# sourceMappingURL=app.component.js.map
+], MenuComponent);
+export { MenuComponent };
+//# sourceMappingURL=menu.component.js.map

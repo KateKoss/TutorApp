@@ -14,7 +14,7 @@ namespace Tutor
         public void ConfigureServices(IServiceCollection services)
         {
             //Server=localhost;Database=master;Trusted_Connection=True;
-            var connectionString = "Server=(localdb)\\mssqllocaldb;Database=productsdb;Trusted_Connection=True;";
+            var connectionString = "Server=localhost;Database=TutorApp;Trusted_Connection=True;";
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
             services.AddControllers();
             services.AddSpaStaticFiles(coniguration => 

@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/menu/menu.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/menu/menu.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/menu/menu.component.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +92,7 @@
       <workItem from="1607893078884" duration="74000" />
       <workItem from="1607894349372" duration="1393000" />
       <workItem from="1608754629229" duration="3909000" />
-      <workItem from="1609698643005" duration="4704000" />
+      <workItem from="1609698643005" duration="4851000" />
     </task>
     <task id="LOCAL-00001" summary="Show lessons table from mocked sever">
       <created>1608757739828</created>

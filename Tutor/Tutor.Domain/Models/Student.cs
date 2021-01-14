@@ -1,10 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
+using Tutor.Domain.BaseModels;
 
 namespace Tutor.Domain.Models
 {
-    class Student
+    public class Student : PersonEntity
     {
+        public Guid Id { get; set; }
+
+        [EmailAddress]
+        public string Email { get; set; }
+
+        public string PhoneNumber { get; set; }
     }
 }

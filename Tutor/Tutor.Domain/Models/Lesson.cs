@@ -1,11 +1,10 @@
 ﻿using System;
+using Tutor.Domain.BaseModels;
 
 namespace Tutor.Domain.Models
 {
-    public class Lesson
+    public class Lesson : BasePesistentEntity
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
         public bool IsProceed { get; set; }
     }
 }
