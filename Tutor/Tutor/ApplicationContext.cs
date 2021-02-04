@@ -12,5 +12,6 @@ namespace Tutor
         }
 
         public DbSet<Lesson> Lessons { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }

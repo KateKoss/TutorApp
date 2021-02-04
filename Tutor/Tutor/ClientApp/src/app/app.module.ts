@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 import {LessonComponent} from "./components/lesson/lesson.component";
 import {HttpClientModule} from "@angular/common/http";
 import {AppRoutingModule} from "./app-routing/app-routing.module";;
-import { MenuComponent } from './components/menu/menu.component'
-;
-import { HomeComponent } from './components/home/home.component'
+import { MenuComponent } from './components/menu/menu.component';
+import { HomeComponent } from './components/home/home.component';
+import { StudentComponent } from './components/student/student.component'
 
 @NgModule({
     imports: [
@@ -20,7 +20,8 @@ import { HomeComponent } from './components/home/home.component'
         AppComponent,
         LessonComponent,
         MenuComponent,
-        HomeComponent
+        HomeComponent,
+        StudentComponent
     ],
     bootstrap: [AppComponent]
 })

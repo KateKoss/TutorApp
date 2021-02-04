@@ -19,7 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever" />
+    <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever">
+      <change afterPath="$PROJECT_DIR$/src/app/services/student.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutor.Domain/Models/Subject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/student.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/student.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tutor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutor.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +113,8 @@
       <workItem from="1607894349372" duration="1393000" />
       <workItem from="1608754629229" duration="3909000" />
       <workItem from="1609698643005" duration="4851000" />
+      <workItem from="1611694800634" duration="632000" />
+      <workItem from="1612467980033" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="Show lessons table from mocked sever">
       <created>1608757739828</created>
@@ -130,6 +152,16 @@
         <option value="$PROJECT_DIR$/src/app/services/lesson.service.js" />
         <option value="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" />
         <option value="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" />
+        <option value="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/home/home.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/home/home.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/menu/menu.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/menu/menu.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/student/student.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/student/student.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/student.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/student.service.js.map" />
       </list>
     </option>
   </component>
@@ -166,10 +198,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1606250236073" />
-    <state x="632" y="298" width="348" height="298" key="org.angular.cli.generate" timestamp="1608755538981">
+    <state x="632" y="298" width="348" height="298" key="org.angular.cli.generate" timestamp="1612468116213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="632" y="298" width="348" height="298" key="org.angular.cli.generate/0.0.1536.824@0.0.1536.824" timestamp="1608755538981" />
+    <state x="632" y="298" width="348" height="298" key="org.angular.cli.generate/0.0.1536.824@0.0.1536.824" timestamp="1612468116213" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607894645899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

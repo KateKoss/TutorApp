@@ -1,4 +1,5 @@
 import { IPerson } from "./IPerson";
+import {Guid} from "guid-typescript";
 
 export class Student implements IPerson {
 

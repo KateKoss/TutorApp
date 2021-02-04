@@ -1,36 +1,33 @@
 import { Injectable } from '@angular/core';
 import { Lesson } from '../models/lesson';
 import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
 import {Guid} from "guid-typescript";
-//import { Student } from '../models/student';
+import {Observable} from "rxjs";
 
-@Injectable(
- //{ providedIn: 'root'}
-    )
+@Injectable()
 export class LessonService {
 
     private url: string = "/api/lessons";
 
     constructor(private http: HttpClient) {}
 
-    getLessons()/*: Observable<Lesson>*/ {
-        return this.http.get(this.url);
+    getLessons(): Observable<Lesson[]> {
+        return this.http.get<Lesson[]>(this.url);
     }
 
-    getLesson(id: Guid) {
-        return this.http.get(this.url + '/' + id)
+    getLesson(id: Guid) : Observable<Lesson>{
+        return this.http.get<Lesson>(this.url + '/' + id)
     }
 
-    createLesson(lesson: Lesson) {
-        return this.http.post(this.url, lesson);
+    createLesson(lesson: Lesson) : Observable<Lesson>{
+        return this.http.post<Lesson>(this.url, lesson);
     }
 
-    updateLesson(lesson: Lesson) {
-        return this.http.put(this.url, lesson);
+    updateLesson(lesson: Lesson) : Observable<Lesson> {
+        return this.http.put<Lesson>(this.url, lesson);
     }
 
-    deleteLesson(id: Guid) {
-        return this.http.delete(this.url + '/' + id);
+    deleteLesson(id: Guid) : Observable<Lesson> {
+        return this.http.delete<Lesson>(this.url + '/' + id);
     }
 }

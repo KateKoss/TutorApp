@@ -14,6 +14,7 @@ import { AppRoutingModule } from "./app-routing/app-routing.module";
 ;
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
+import { StudentComponent } from './components/student/student.component';
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -28,7 +29,8 @@ AppModule = __decorate([
             AppComponent,
             LessonComponent,
             MenuComponent,
-            HomeComponent
+            HomeComponent,
+            StudentComponent
         ],
         bootstrap: [AppComponent]
     })

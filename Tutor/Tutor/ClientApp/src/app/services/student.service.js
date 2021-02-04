@@ -4,30 +4,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { Injectable } from '@angular/core';
-let LessonService = class LessonService {
+import { Injectable } from "@angular/core";
+let StudentService = class StudentService {
     constructor(http) {
         this.http = http;
-        this.url = "/api/lessons";
+        this.url = "api/student";
     }
-    getLessons() {
+    getStudents() {
         return this.http.get(this.url);
     }
-    getLesson(id) {
+    getStudent(id) {
         return this.http.get(this.url + '/' + id);
     }
-    createLesson(lesson) {
-        return this.http.post(this.url, lesson);
-    }
-    updateLesson(lesson) {
-        return this.http.put(this.url, lesson);
-    }
-    deleteLesson(id) {
-        return this.http.delete(this.url + '/' + id);
-    }
 };
-LessonService = __decorate([
+StudentService = __decorate([
     Injectable()
-], LessonService);
-export { LessonService };
-//# sourceMappingURL=lesson.service.js.map
+], StudentService);
+export { StudentService };
+//# sourceMappingURL=student.service.js.map
