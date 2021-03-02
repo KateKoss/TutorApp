@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12eac61-4c94-4026-9e02-fd624a351c75" name="Default Changelist" comment="Show lessons table from mocked sever">
-      <change afterPath="$PROJECT_DIR$/src/app/services/student.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tutor.Domain/Models/Subject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy.conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/lesson/lesson.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/student.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/student.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/lesson.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/lesson.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/student.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/student.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tutor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tutor.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +101,7 @@
       <workItem from="1609698643005" duration="4851000" />
       <workItem from="1611694800634" duration="632000" />
       <workItem from="1612467980033" duration="4039000" />
+      <workItem from="1614718665831" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="Show lessons table from mocked sever">
       <created>1608757739828</created>
